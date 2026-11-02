@@ -1,8 +1,0 @@
-### GitHub, github desktop, git 
-*26 Octobre*
-
-Ces derniers jours, j'ai essayée de comprendre et d'apprendre git et GitHub. Pour ce faire, j'ai utilisé le [tuto Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world) dans la documentation de GitHub. J'ai ainsi pu me familiariser avec le fonctionnement de GitHub. 
-
-Ce système me permettant cependant de travailler en ligne, j'ai installé GitHub Desktop et fait [leur tutoriel](https://docs.github.com/en/desktop/overview/creating-your-first-repository-using-github-desktop) de démarrage afin de pouvoir comprendre le process pour travailler en local. 
-
-Grâce à ces tutoriels, j'ai pu mieux comprendre le fonctionnement du version contrôle. En passant par des commandes graphiques, cela m'a permis d'appréhender le système sans la complexité des commandes lines à écrire dans le terminal. J'ai cependant télécharger git afin d'avoir les indicateurs graphiques directement dans VS Code (et de facilité l'apprentissage des commandes plus tard).
