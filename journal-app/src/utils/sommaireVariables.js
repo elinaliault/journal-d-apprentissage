@@ -1,7 +1,3 @@
-// dev
-// export const DOMAINE = "http://localhost:3000/"
-// deployed
-export const DOMAINE = "https://elinaliault.github.io/journal-d-apprentissage/"
 export const SOMMAIRE = [
   { "titre": "Introduction", "url": "intro" },
   { "titre": "D'où je pars", "url": "depart" },
