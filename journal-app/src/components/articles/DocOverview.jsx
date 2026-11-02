@@ -1,4 +1,5 @@
 import ButtonNext from "../ButtonNext";
+import FootnoteLink from "../FootnoteLink"
 
 export default function DocOverview() {
     return (
@@ -6,7 +7,7 @@ export default function DocOverview() {
         <h1>Documentation overview</h1>
         <h2><i>19 Janvier</i></h2>
         <p>Depuis la semaine dernière, j'ai continué d'utiliser les lignes de commandes git plutôt que les actions graphiques. </p>
-        <p>J'ai aussi appris quelques commandes bash<sup><a href="#footnote-1">1</a></sup> pour se déplacer et manipuler des fichiers comme : </p>
+        <p>J'ai aussi appris quelques commandes bash<sup><FootnoteLink id="footnote-1">1</FootnoteLink></sup> pour se déplacer et manipuler des fichiers comme : </p>
         <ul>
             <li><code>cd</code> : se déplacer dans l'arbre de fichiers</li>
             <li><code>mkdir</code> : créer un dossier</li>
@@ -18,17 +19,17 @@ export default function DocOverview() {
         <p>J'ai profité du momentum que j'avais par rapport à la lecture de documentation pour lire <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Language_overview">JavaScript language overview</a>. Mon objectif était de rafraîchir mes connaissances en JavaScript, mais surtout d'acquérir une connaissance (au moins de surface) des sujets que je n'ai pas encore rencontrés.
         <br/>Mes notes :</p>
         <ul>
-            <li>Opérateurs logiques avec un comportement de court-circuit<sup><a href="#footnote-2">2</a> <a href="#footnote-2">3</a></sup>
+            <li>Opérateurs logiques avec un comportement de court-circuit<sup><FootnoteLink id="footnote-2">2</FootnoteLink> <FootnoteLink id="footnote-3">3</FootnoteLink></sup>
                 <pre><code>const a = 0 &amp;&amp; &quot;Hello&quot;; // 0 because 0 is &quot;falsy&quot;
                 <br/>const b = &quot;Hello&quot; || &quot;world&quot;; // &quot;Hello&quot; because both &quot;Hello&quot; and &quot;world&quot; are &quot;truthy&quot;</code></pre>
             </li>
-            <li><code>if...else</code> syntaxe en utilisant des opérateurs<sup><a href="#footnote-4">4</a></sup>
+            <li><code>if...else</code> syntaxe en utilisant des opérateurs<sup><FootnoteLink id="footnote-4">4</FootnoteLink></sup>
             <pre><code>condition ? exprIfTrue : exprIfFalse</code></pre>
             </li>
-            <li><code>try...catch</code><sup><a href="#footnote-5">5</a></sup> and <code>throw</code><sup><a href="#footnote-6">6</a></sup></li>
-            <li>Arrow fonctions<sup><a href="#footnote-7">7</a></sup></li>
-            <li>Classes<sup><a href="#footnote-8">8</a></sup></li>
-            <li>Asynchronous programming<sup><a href="#footnote-9">9</a></sup></li>
+            <li><code>try...catch</code><sup><FootnoteLink id="footnote-5">5</FootnoteLink></sup> and <code>throw</code><sup><FootnoteLink id="footnote-6">6</FootnoteLink></sup></li>
+            <li>Arrow fonctions<sup><FootnoteLink id="footnote-7">7</FootnoteLink></sup></li>
+            <li>Classes<sup><FootnoteLink id="footnote-8">8</FootnoteLink></sup></li>
+            <li>Asynchronous programming<sup><FootnoteLink id="footnote-9">9</FootnoteLink></sup></li>
         </ul>
         <ButtonNext />
         <div id="footnotes">

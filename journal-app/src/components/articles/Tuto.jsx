@@ -1,4 +1,5 @@
 import ButtonNext from "../ButtonNext";
+import FootnoteLink from "../FootnoteLink"
 
 export default function Tuto() {
     return (
@@ -58,7 +59,7 @@ export default function Tuto() {
             donc <a target="blank_" href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started">leur tuto</a> {" "}
             mais vous pouvez en trouver d'autres notamment sur <a target="blank_" href="https://react.dev/learn/tutorial-tic-tac-toe">la documentation de React</a>. 
             <br />Encore une fois, suivant votre aise avec le terminal, vous pouvez soit faire tout faire dans une sandbox pour commencer (bac à sable ne nécessitant pas de ligne de commande), soit 
-            en installant <a target="blank_" href="https://nodejs.org/en/download">Node.js</a> et en créant votre projet sur la base d'un modèle par exemple<sup><a href="#footnote-1">1</a></sup>.
+            en installant <a target="blank_" href="https://nodejs.org/en/download">Node.js</a> et en créant votre projet sur la base d'un modèle par exemple<sup><FootnoteLink id="footnote-1">1</FootnoteLink></sup>.
             <br />Une fois que vous avez bien compris les concepts de bases, je suggérerais, comme pour Javascript, de trouver un projet et 
             de le réaliser soi-même pour s'entraîner (comme j'ai pu le faire avec ce site).
         </p>
