@@ -3,7 +3,7 @@
 
 J'avais un peu peur du déploiement et de trouver ça très compliqué, mais au final ça n'a pas du tout été mon ressenti. J'ai décidé de déployer mon site sur [GitHub Pages](https://docs.github.com/fr/pages). 
 
-Dans un premier temps, j'ai testé le déploiement avec le project [Tic Tac Toe](https://elinaliault-maker.github.io/tic-tac-toe/) (réalisé il y a quelques articles pour vous et quelques semaines pour moi). J'ai suivi deux articles[^3] expliquant le process et eu très peu de problème. 
+Dans un premier temps, j'ai testé le déploiement avec le project [Tic Tac Toe](https://elinaliault.github.io/tic-tac-toe/) (réalisé il y a quelques articles pour vous et quelques semaines pour moi). J'ai suivi deux articles[^3] expliquant le process et eu très peu de problème. 
 
 Dans un second temps, j'ai réalisé ce même procédé sur le projet Journal d'apprentissage (hey). J'avais anticipé que React Router allais nécessiter des changements et ai donc été peu surprise des erreurs de routing. J'ai échanger `BrowserRouter` pour `HashRouter`[^4] et modifier les fichiers utilisant les URLs. 
 

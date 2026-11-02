@@ -6,7 +6,7 @@ export default function Deploy() {
         <h1>Déploiement</h1>
         <h2><i>5 Mars</i></h2>
         <p>J'avais un peu peur du déploiement et de trouver ça très compliqué, mais au final ça n'a pas du tout été mon ressenti. J'ai décidé de déployer mon site sur <a target="_blank" href="https://docs.github.com/fr/pages">GitHub Pages</a>. </p>
-        <p>Dans un premier temps, j'ai testé le déploiement avec le projet <a target="_blank" href="https://elinaliault-maker.github.io/tic-tac-toe/">Tic Tac Toe</a> (réalisé il y a quelques articles pour vous et quelques semaines pour moi). J'ai suivi deux articles<sup><a href="#footnote-1">1</a></sup> expliquant le process et eu très peu de problème. </p>
+        <p>Dans un premier temps, j'ai testé le déploiement avec le projet <a target="_blank" href="https://elinaliault.github.io/tic-tac-toe/">Tic Tac Toe</a> (réalisé il y a quelques articles pour vous et quelques semaines pour moi). J'ai suivi deux articles<sup><a href="#footnote-1">1</a></sup> expliquant le process et eu très peu de problème. </p>
         <p>Dans un second temps, j'ai réalisé ce même procédé sur le projet Journal d'apprentissage (hey). J'avais anticipé que React Router allait nécessiter des changements et j'ai donc été peu surprise des erreurs de routing. J'ai échangé <code>BrowserRouter</code> pour <code>HashRouter</code><sup><a href="#footnote-2">2</a></sup> et modifier les fichiers utilisant les URLs. </p>
         <p>Avec ces quelques changements, mon site est enfin en ligne !</p>
         <ButtonNext />
